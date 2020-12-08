@@ -23,7 +23,6 @@ img {
 }
 
 .container {
-  background-color: ;
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
@@ -209,7 +208,6 @@ img {
 /*opportunity-section*/
 
 .opportunity {
-  background-color: ;
 }
 
 .opportunity-list {
@@ -341,18 +339,19 @@ C .works-item {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--general-color);
-  text-transform: uppercase;
   padding-top: 35px;
   padding-bottom: 1px;
+  letter-spacing: 0.03em;
 }
 .team-profession {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: var(--paragraph-color);
   padding-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 .team-sosial {
   list-style: none;
@@ -544,6 +543,19 @@ C .works-item {
 }
 .footer-button-icon:hover {
   fill: white;
+  cursor: pointer;
+}
+.footer-team-button {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: block;
+  text-align: center;
+  background-color: #3e3e41;
+  margin-right: 10px;
+}
+.footer-team-button:hover {
+  background-color: #2196f3;
   cursor: pointer;
 }
 /*portfolio-html*/

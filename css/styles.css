@@ -398,6 +398,9 @@ C .works-item {
 .team-link:hover .team-icon {
   fill: white;
 }
+.team-link:focus .team-icon {
+  fill: white;
+}
 .team-icon {
   width: 20px;
   height: 20px;
@@ -456,6 +459,9 @@ C .works-item {
 .clients-link:hover .clients-icon {
   fill: #2394bc;
 }
+.clients-link:focus .clients-icon {
+  fill: #2394bc;
+}
 .clients-icon {
   width: 40px;
   height: 52px;
@@ -469,10 +475,19 @@ C .works-item {
 .clients-link:hover .clients-icon-four {
   fill: #2394bc;
 }
+.clients-link:focus .clients-icon-four {
+  fill: #2394bc;
+}
 .clients-link:hover .clients-icon-five {
   fill: #2394bc;
 }
+.clients-link:focus .clients-icon-five {
+  fill: #2394bc;
+}
 .clients-link:hover .clients-icon-six {
+  fill: #2394bc;
+}
+.clients-link:focus .clients-six {
   fill: #2394bc;
 }
 .clients-icon-five {
@@ -589,6 +604,10 @@ C .works-item {
   margin-right: 10px;
 }
 .footer-team-button:hover {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.footer-team-button:focus {
   background-color: #2196f3;
   cursor: pointer;
 }

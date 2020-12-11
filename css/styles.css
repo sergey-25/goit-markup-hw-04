@@ -385,7 +385,7 @@ C .works-item {
   justify-content: center;
   width: 50px;
   height: 50px;
-  color: #2394bc;
+  color: #2196f3;
   border: 1px;
   border-radius: 50%;
 }
@@ -453,11 +453,11 @@ C .works-item {
 }
 .clients-link:hover,
 .clients-link:focus {
-  border: 1px solid #2394bc;
+  border: 1px solid#2196f3;
   border-radius: 4px;
 }
 .clients-link:hover .clients-icon {
-  fill:  #2196f3;
+  fill: #2196f3;
 }
 .clients-link:focus .clients-icon {
   fill: #2196f3;

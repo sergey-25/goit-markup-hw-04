@@ -457,10 +457,10 @@ C .works-item {
   border-radius: 4px;
 }
 .clients-link:hover .clients-icon {
-  fill: #2394bc;
+  fill:  #2196f3;
 }
 .clients-link:focus .clients-icon {
-  fill: #2394bc;
+  fill: #2196f3;
 }
 .clients-icon {
   width: 40px;

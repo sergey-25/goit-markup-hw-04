@@ -46,6 +46,7 @@ img {
   display: flex;
 }
 /*Header*/
+
 .header {
 }
 .nav-all {
@@ -80,10 +81,13 @@ img {
 .navigation-link:hover {
   color: var(--accent-color);
 }
-.navigation-link:active {
+/*.navigation-link:active {
+  color: var(--accent-color);
+}*/
+.navigation-link:focus {
   color: var(--accent-color);
 }
-.navigation-link:focus {
+.current {
   color: var(--accent-color);
 }
 

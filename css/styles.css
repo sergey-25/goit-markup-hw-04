@@ -81,9 +81,7 @@ img {
 .navigation-link:hover {
   color: var(--accent-color);
 }
-/*.navigation-link:active {
-  color: var(--accent-color);
-}*/
+
 .navigation-link:focus {
   color: var(--accent-color);
 }
@@ -183,11 +181,14 @@ img {
     url('../images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
 }
 .hero-content {
+  display: block;
   margin: 0 auto;
   width: 1200px;
+  text-align: center;
+  padding-bottom: 280px;
+  padding-top: 200px;
 }
 .hero-title {
   display: block;
@@ -198,10 +199,9 @@ img {
   color: var(--general-second-color);
   text-align: center;
   text-transform: uppercase;
-  padding-top: 200px;
+  margin-bottom: 30px;
 }
 .hero-button {
-  display: block;
   color: var(--general-color);
   background-color: #f5f4fa;
   border: 1px solid black;
@@ -216,7 +216,6 @@ img {
   height: 50px;
   text-align: center;
   padding: 10px 49px;
-  margin: 30px auto;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -521,9 +520,6 @@ C .works-item {
   background-color: var(--back-color);
   padding-bottom: 60px;
   padding-top: 60px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .footer-info {
   display: block;
